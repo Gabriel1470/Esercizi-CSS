@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+#green {
+  order: 3;
+}
+
+#orange {
+  order: 4;
+  width: 200%;
+}
+
+#yellow {
+  order: 1;
+}
+
+#red {
+  order: 2;
+}
+
+#blue {
+  order: 5;
+}
