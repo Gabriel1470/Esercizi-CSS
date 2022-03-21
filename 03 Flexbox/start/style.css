@@ -3,12 +3,15 @@
   flex-direction: column;
   width: 200px;
   height: 100%;
+  gap: 2rem;
+  border: solid 1px black;
+  padding: 1rem 5px;
 }
 
 nav {
   display: flex;
   flex-direction: column;
-
+  gap: 1.2rem;
 }
 
 nav a {
@@ -20,7 +23,14 @@ nav a:hover {
   transition: ease-in-out 0.3s;
 }
 
-.loh-name {
+.img-prof {
   display: flex;
   flex-direction: column;
+}
+
+.img-prof img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20rem;
+  padding: 1rem 5px;
 }
